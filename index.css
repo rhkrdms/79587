@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/***** main *****/
+main .contents {
+    overflow: hidden;
+}
+main .contents section {
+    float: left;
+    text-align: left;
+}
+main .contents .txt_box {
+    width: 420px;
+}
+main .contents .img_box {
+    width: 255px;
+    margin-left: 25px;
+}
+main .contents h2 {
+    margin: 20px 0 10px;
+}
+main .contents figure {
+    margin: 0;
+    text-align: right;
+    font-weight: 300;
+}

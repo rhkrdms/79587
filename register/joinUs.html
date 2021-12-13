@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="웹사이트 구조 연습">
+
+    <meta property="og:title" content="웹사이트 구조 연습">
+    <meta property="og:url" content="https://rhkrdms.netlify.app">
+    <meta property="og:image" content="https://rhkrdms.netlify.app/asset/images/og.png">
+    <meta property="og:description" content="웹사이트 구조를 확인하기 위한 페이지입니다.">
+
+    <title>I like yellow</title>
+
+    <link rel="icon" href="../favicon.ico" sizes="any">
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+    <link rel="manifest" href="../site.webmanifest">
+
+    <link rel="stylesheet" href="../asset/css/normalize.css">
+    <link rel="stylesheet" href="../asset/css/fonts.css">
+    <link rel="stylesheet" href="../asset/css/style.css">
+    <link rel="stylesheet" href="joinUs.css">
+
+    <script src="../asset/scripts/prefixfree.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="wrapper" id="header_ht">
+            <h1>
+                <a href="/"><img src="https://via.placeholder.com/185x50/f8ea6d/555?text=logo" alt="logo"></a>
+            </h1>
+        <ul class="register">
+            <li><a href="login.html">login</a></li>
+            <li><a href="joinUs.html">join us</a></li>
+        </ul>
+        <ul class="gnb">
+            <li><a href="../intro/">회사소개</a></li>
+            <li><a href="../brand/">브랜드소개</a></li>
+            <li><a href="../store/">매장안내</a></li>
+            <li><a href="../service/">고객센터</a></li>
+            <li><a href="../franchise/">가맹문의</a></li>
+        </ul>
+        </div>
+    </header>
+
+    <main>
+        <form action="https://rhkrdms.netlify.app" method="post">
+            <h3>join us</h3>
+            <label for="user_name"> name </label><input type="text" name="user_name" id="user_name">
+            <label for="user_email"> email </label><input type="email" name="user_email" id="user_email">
+            <label for="user_pwd"> password </label><input type="password" name="user_pwd" id="user_pwd">
+            <label><input type="checkbox" name="user_chk" id="user_chk"> show password</label>
+
+            <!-- <input type="submit" value="done, sign me up>" -->
+            <button type="submit">done, sign me up</button>
+            <p>by rigning up i agree to the <a href="#">term and conditions</a></p>
+        </form>
+        <img src="https://via.placeholder.com/360x550/f8ea6d/555?text=img" alt="회원가입 이미지">
+    </main>
+
+    <footer>
+        <address class="wrapper">곽은지 에프엔씨 food service mangenet 경기123-12 tel.031-123-1234 fax.031-123-1224</address>
+        &copy; copyright by kej all right reserved.
+    </footer>
+</body>
+</html>
